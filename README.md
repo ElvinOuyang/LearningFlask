@@ -3,7 +3,7 @@
 
 ## Quick Start on Setup
 
-### If the GPU / Docker is hosted in a remote server, use below command to SSH into the server:
+### If the Docker is hosted in a remote server, use below command to SSH into the server:
 
 **Local Server**:
 ```bash

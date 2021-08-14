@@ -10,9 +10,9 @@
 yes | apt-get update && yes | apt-get upgrade
 yes | apt-get install tmux && yes | apt-get install nano
 # when inside docker, bash this script
-pip install pandas scikit-learn seaborn
-pip install spacy
+pip install flask
 pip install jupyterlab
+pip install flask-restplus
 
 # set up github
 git config --global user.name "ElvinOuyang"
