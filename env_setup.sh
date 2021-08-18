@@ -9,10 +9,11 @@
 # install shell apps
 yes | apt-get update && yes | apt-get upgrade
 yes | apt-get install tmux && yes | apt-get install nano
+yes | apt-get install curl
 # when inside docker, bash this script
 pip install flask
 pip install jupyterlab
-pip install flask-restplus
+pip install flask-restful
 
 # set up github
 git config --global user.name "ElvinOuyang"
